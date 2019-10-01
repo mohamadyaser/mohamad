@@ -1,0 +1,64 @@
+.contr{width: 30%; margin:auto}
+.first{margin-top: 20%}
+body{background-color: whitesmoke;}
+#bott{
+    padding:10px   20%   10px   23% ;
+    background-color: blue;
+    border-radius: 5px;
+    border-color: blue;
+    color: whitesmoke;
+
+    
+}
+input{
+
+    border-style: none;
+    margin-top: 2%;
+    background-color: whitesmoke;
+
+}
+input
+    .line{
+
+        background-color: black;
+    }  
+    #name , #Email , #password{
+        border-style: none;
+        border-bottom: 1px solid gray;
+        margin-bottom: 5%;
+        width: 50%;
+        height: 5%;
+        outline: none;
+
+    }     
+    #name:focus, #Email:focus , #password:focus{
+        border-bottom: 1px solid #1078ee;
+    }  
+    .p{
+        margin-bottom: 50px;
+    }
+    .image{
+        /* visibility: hidden; */
+        display: none;
+    }
+    img{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+        border: 1px solid #1078ee;
+        padding: 10px;
+        background: #fff;
+    }
+   img:hover{
+       background: #aaa;
+   }
+   #nameError{
+       color: red;
+   }
+   #Emailerror{
+       color: red;
+   }
+   #passerror{
+       color: red;
+   }
